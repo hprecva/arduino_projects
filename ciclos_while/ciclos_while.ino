@@ -13,7 +13,7 @@ void loop() {
                                                 // el Arduino a trabajar.
   cambioColor(0);
   delay(TIME);
-  while (millis() - lastMillist < 4000) {       // Función While, tomando el valor de millis para entrar
+  while (millis() - lastMillis < 4000) {       // Función While, tomando el valor de millis para entrar
                                                 // al ciclo.
     cambioColor(1);
     delay(200);
